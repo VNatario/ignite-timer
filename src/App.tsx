@@ -7,9 +7,9 @@ import { Button } from './components/Buton'
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Button variant='primary' />
-      <Button variant='secondary' />
-      <Button variant='success' />
+      <Button variant="primary" />
+      <Button variant="secondary" />
+      <Button variant="success" />
       <Button />
 
       <GlobalStyle />
